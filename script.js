@@ -3,11 +3,12 @@ let productsContainer = document.getElementById("scrollable-products");
 let cartItems = document.getElementById("cart-items");
 
 const products = [
-    {  id: 1, name: "Laptop",price: 50000, image: "laptop.jpg"},
+    {  id: 1, name: "BeatuSet",price: 5000, image: "beautyset.jpeg"},
     {  id: 2, name: "Phone",price: 20000, image: "phone.jpg"},
     {  id: 3, name: "Tablet",price: 30000, image: "tablet.jpg"},
     {  id: 4, name: "Smart watch",price: 8000, image: "smartwatch.jpg"},
     {  id: 5, name: "Headphones",price: 3000, image: "headphones.jpg"},
+    {  id: 6, name: "Laptop",price: 50000, image: "laptop.jpg"},
 ]
 
 
@@ -128,6 +129,7 @@ document.addEventListener('DOMContentLoaded', function(){
         };
     }
 });
+
 
 
 
