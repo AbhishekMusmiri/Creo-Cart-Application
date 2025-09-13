@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creo Cart</title>
+    <title>Creo cart</title>
     <link rel="stylesheet" href="style.css">
         <link rel="icon" href="carts.png" type="image/x-icon">
 </head>
@@ -18,35 +18,33 @@
         <div class="online-shopping-container" , id="online-shopping-container">
             <h2>Available Products</h2>
             <div class="scrollable-products", id="scrollable-products">
+              <!-- I HAVE ADDED PRODUCT ROWS DYNAMICALLY THROUGH script.js -->
+            </div>
 
-            <!-- I HAVE ADDED PRODUCT ROWS DYNAMICALLY THROUGH script.js -->
-
-            </div> <!-- scrollable products-->
-
-        </div> <!-- online shopping container -->
+        </div> 
         <div>
             <div class="cart-container", id="cartcontainer">
                 <h2>My Cart</h2>
                 <div class="cart-items", id="cart-items">
                     <!-- I HAVE ADDED CART ITEMS DYNAMICALLY THROUGH script.js -->
-                    <h4>Cart is Empty !!</h4>
+                <h4>Cart is Empty !!</h4>
                 </div>
-                <div id="cart-total" style="margin-top:18px;font-size:18px;color:#22c55e;text-align:right;"></div>
-                <div id="cart-price-total" style="margin-top:8px;font-size:18px;color:#f59e42;text-align:right;"></div>
+                <div id="cart-total"></div>
+                <div id="cart-price-total" ></div>
                 <div style="width:100%;display:flex;justify-content:flex-end;margin-top:12px;">
                     <button id="proceed-pay-btn" style="background:#22c55e;color:#fff;padding:10px 28px;font-size:17px;border:none;border-radius:6px;cursor:pointer;">Proceed to Pay</button>
                 </div>
-                </div>
-        </div>
-    </div> <!-- main-container -->
-
-    <!-- <div>
-    <footer>
+                 <footer>
         <p>Your one-stop online shopping app. Explore fashion, electronics, beauty, and more at unbeatable
             prices.</p>
         <h5>© 2025 CreoCart | All Rights Reserved.</h5>
     </footer>
-    </div> -->
+                </div>
+                <div>
+   
+    </div>
+        </div>
+    </div> 
 
 
     <script src="script.js"></script>
