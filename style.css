@@ -297,7 +297,7 @@ border: 2px solid #f0eeeee6;
     body{
         
         background-color: rgb(0, 32, 63);
-    background:linear-gradient(rgba(255, 255, 255, 0.012), rgba(255, 255, 255, 0.012)), url(pexels-cottonbro-4068314.jpg);
+    background:linear-gradient(rgba(255, 255, 255, 0.012), rgba(255, 255, 255, 0.012)), url(bg2.jpg);
         
     }
     .online-shopping-container, .cart-container{
@@ -321,5 +321,6 @@ border: 2px solid #f0eeeee6;
     }
 
 }
+
 
 
